@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* App.css */
+
+body {
+  background-color: #292b2e;
+  color: #ffffff;
+  }
+  
+  .app-title {
+  color: #ffffff;
+  margin-top: 2rem;
+  }
+  
