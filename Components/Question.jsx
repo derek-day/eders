@@ -10,6 +10,9 @@ class Question extends Component{
 		return(
 			<div className="">
 				<h3>Question {question.id}</h3>
+				<div className="ratio ratio-16x9">
+					<iframe src={question.url} title={question.title} allowFullScreen></iframe>
+				</div>
 				<h5 className="mt-2">{question.question}</h5>
 				<form onSubmit={onSubmit} className="mt-2 mb-2">
 					<Options
